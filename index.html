@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        /* SCREEN BELOW 600PX*/
+
+        @media only screen and (max-width: 600px) {
+            .cta a {
+                background-color: #26abc8 !important;
+                color: #fff !important;
+            }
+
+            .email-background {
+                background-color: #23454f !important;
+                font-family: sans-serif;
+                padding: 20px 5px 50px;
+                width: 100%;
+            }
+
+            .desktop {
+                display: none !important;
+                visibility: hidden !important;
+            }
+
+            .footer, a {
+                background-color: #23454f !important;
+                color: #fff !important;
+            }
+        }
+
+
+        /* SCREEN ABOVE 600PX*/
+
+        @media only screen and (min-width: 600px) {
+            .smartphone {
+                display: none !important;
+                visibility: hidden !important;
+            }
+        }
+
+        /* CSS */
+
+        .email-background {
+            background-color: #f9b88a;
+            font-family: sans-serif;
+            padding: 20px 5px 50px;
+            width: 100%;
+        }
+
+        .email-container {
+            background-color: #fff;
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+            padding-bottom: 40px;
+            border-radius: 15px;
+            width: 100%;
+        }
+
+        p {
+            padding: 0px 20px 20px;
+        }
+
+        .cta a {
+            background-color: #f1df55;
+            color: #000;
+            padding: 15px 20px;
+            border-radius: 15px;
+            text-decoration: none;
+        }
+
+        img {
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            max-width: 600px;
+            padding: 0;
+            width: 100%;
+
+            background-color: #F6C46D;
+            color: #006D4E;
+            font-size: 28px;
+            line-height: 1.4em;
+            font-family: sans-serif;
+            font-weight: 800;
+            font-style: italic;
+            display: block;
+            min-height: 200px;
+            min-width: 100%;
+            text-shadow: 1px 1px #fff;
+            text-decoration: none;
+            white-space: pre;
+        }
+
+        .footer, a{
+            background-color: #f9b88a;
+            margin: 0 auto;
+            text-align: center;
+            color: #ff1b72;
+            font-size: 10px;
+            padding: 15px 0;
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="email-background">
+        <div class="email-container">
+            <div class="smartphone" style="padding: 0px 0px 40px 0px;">
+                    <img 
+                        src="https://drive.google.com/uc?export=view&id=d/1by2Ds4-gc9UrkgLZ4OtT3pULLqULKKmx"
+                    />
+                <h2>This App is perfect for Smartphones</h2>
+                <p>We are crossplatform, multi language and work great on small screens!
+                </p>
+                <div class="cta">
+                    <a href="">Get the App!</a>
+                </div>
+            </div>
+            
+            <div class="desktop">
+                    <img 
+                        src="https://drive.google.com/uc?export=view&id=1siP1fvDzGI5mJh0UJOylVME-m-0jdNfo"
+                    />
+                <h2>This App is perfect for Desktop</h2>
+                <p>This Desktop App is great for big screens and works on every workstation.
+                </p>
+                <div class="cta">
+                    <a href="">Get the App!</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <a href="">Visit Us</a>|<a href="">Unsubcribe</a>
+        </div>
+    </div>
+</body>
+</html>
